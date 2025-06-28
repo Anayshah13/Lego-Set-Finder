@@ -150,7 +150,7 @@ html, body {
   position: fixed;
   inset: 0;
   z-index: 999;
-  background-image: url(red_bg.jpg);
+  background-image: url(/red_bg.jpg);
   display: flex;
   flex-direction: column;
   justify-content: center;
