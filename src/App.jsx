@@ -76,7 +76,7 @@ function SearchByNumber() {
       <div className="input-panel">
         <div className="lego-img">
           <img
-            src="Lego_logo.jpg"
+            src="/Lego_logo.jpg"
             alt="LEGO Logo"
             className="lego-logo"
           />
@@ -97,7 +97,7 @@ function SearchByNumber() {
         <div className="set-name">{setData.name || 'SET NAME'}</div>
         <div className="image-box">
           <img
-            src={setData.img_url || 'greeen.jpg'}
+            src={setData.img_url || '/greeen.jpg'}
             alt={setData.name || 'LEGO Placeholder'}
             className="set-image"
           />
