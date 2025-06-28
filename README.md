@@ -7,7 +7,7 @@ Welcome to **LEGO Set Finder** — a simple React web app that lets users search
 - 🚀 Landing screen to enter
 - 🔍 Search LEGO sets by set number (automatically appends `-1` to show their first version)
 - 🖼 Displays set name, number of parts, and an image
-- 🧱 Uses a local CSV (`sets.csv`) for dataset
+- 🧱 Uses a locally downloaded CSV (`sets.csv`) for dataset including all released and upcoming sets by ReBrickable
 
 
 
