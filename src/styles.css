@@ -32,9 +32,9 @@ html, body {
 }
 
 .lego-img {
-  margin: 20px 0 80px 60px;
-  max-width: 270px;
-  height: 50%;
+  margin: 35px 0 100px 85px;
+  max-width: 210px;
+  height: 40%;
   border-radius: 7px;
   background-color: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
