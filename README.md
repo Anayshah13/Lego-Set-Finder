@@ -1,4 +1,4 @@
-🧱 LEGO Finder React App
+#🧱 LEGO Finder React App
 An interactive LEGO set explorer built with React!
 Search for LEGO sets by set number or by set name with autocomplete suggestions.
 Data is loaded from a local CSV file using PapaParse.
