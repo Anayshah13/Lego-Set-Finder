@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import Papa from 'papaparse';
 import './styles.css';
+import Footer from './Footer.jsx'
 
 function SearchByNumber() {
   const [landingVisible, setLandingVisible] = useState(true);
@@ -113,6 +114,7 @@ function SearchByNumber() {
         </div>
       </div>
     </div>
+  <Footer/>
   </>
 );
 }
