@@ -1,12 +1,10 @@
 import { useState, useEffect } from 'react';
 import Papa from 'papaparse';
-import LandingScreen from './LandingScreen.jsx';
 import SetInputPanel from './SetInputPanel.jsx';
 import SetDisplayPanel from './SetDisplayPanel.jsx';
 import './styles.css';
 
 function SearchByNumber() {
-  const [landingVisible, setLandingVisible] = useState(true);
   const [setNumber, setSetNumber] = useState('');
   const [setData, setSetData] = useState({
     img_url: '',
@@ -58,8 +56,6 @@ function SearchByNumber() {
 
   return (
     <>
-      {landingVisible && <LandingScreen onClick={() => setLandingVisible(false)} />}
-
       <div className="app-container">
         <SetInputPanel setNumber={setNumber} onChange={setSetNumber} />
         <div className="divider" />
