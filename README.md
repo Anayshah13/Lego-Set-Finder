@@ -1,13 +1,25 @@
-# 🧱 LEGO Set Finder
+🧱 LEGO Finder React App
+An interactive LEGO set explorer built with React!
+Search for LEGO sets by set number or by set name with autocomplete suggestions.
+Data is loaded from a local CSV file using PapaParse.
 
-Welcome to **LEGO Set Finder** — a simple React web app that lets users search for LEGO sets by their set number.
+🚀 Features
+🔍 Search by Set Number: Just type 42158, 001, etc. to get full set details.
 
-## ✨ Features
+🧠 Search by Name with Autocomplete:
 
-- 🚀 Landing screen to enter
-- 🔍 Search LEGO sets by set number (automatically appends `-1` to show their first version)
-- 🖼 Displays set name, number of parts, and an image
-- 🧱 Uses a locally downloaded CSV (`sets.csv`) for dataset including all released and upcoming sets by ReBrickable
+As you type, see top 5 matching suggestions (like Google!)
 
+Click a suggestion to instantly see the image, part count, and release year
+
+🎨 Clean UI with image viewer, real-time updates, and smooth user experience
+
+🧾 Uses PapaParse to load a CSV of LEGO sets
+
+
+🙌 Credits
+LEGO set data (publicly sourced)
+
+PapaParse for CSV parsing
 
 
