@@ -23,12 +23,12 @@ function SearchByName() {
     const trimmed = nameInput.trim().toLowerCase();
     if (!trimmed) {
       setSuggestions([]);
+      setSetData({});
       return;
     }
 
     const matches = sets
       .filter(s => s.name?.toLowerCase().includes(trimmed))
-      .slice(0, 5);
 
     setSuggestions(matches);
   }, [nameInput, sets]);

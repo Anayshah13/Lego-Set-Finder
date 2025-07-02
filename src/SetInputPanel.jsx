@@ -1,6 +1,6 @@
 function SetInputPanel({ setNumber, onChange }) {
   return (
-    <div className="input-panel1">
+    <div className="input-panel">
       <div className="lego-img">
         <img src="/Lego_logo.jpg" alt="LEGO Logo" className="lego-logo" />
       </div>

@@ -1,11 +1,11 @@
 function SetDisplayPanel({ setData }) {
   return (
-    <div className="display-panel1">
+    <div className="display-panel">
       <div className="set-name">{setData.name || 'SET NAME'}</div>
 
       <div className="image-box">
         <img
-          src={setData.img_url || '/green_bg.jpg'}
+          src={setData.img_url || '/forestai.jpg'}
           alt={setData.name || 'LEGO Placeholder'}
           className="set-image"
         />
