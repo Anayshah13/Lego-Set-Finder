@@ -3,6 +3,7 @@ import Papa from 'papaparse';
 import SetInputPanel from './SetInputPanel.jsx';
 import SetDisplayPanel from './SetDisplayPanel.jsx';
 import './styles.css';
+import Title from './title.jsx'
 
 function SearchByNumber() {
   const [setNumber, setSetNumber] = useState('');
@@ -56,6 +57,7 @@ function SearchByNumber() {
 
   return (
     <>
+      <Title text="SET NUMBER => SET DETAILS" />
       <div className="app-container">
         <SetInputPanel setNumber={setNumber} onChange={setSetNumber} />
         <div className="divider" />

@@ -3,6 +3,7 @@ import Papa from 'papaparse';
 import SetInputPanel2 from './SetInputPanel2';
 import SetDisplayPanel2 from './SetDisplayPanel2';
 import './styles.css';
+import Title from './title.jsx'
 
 function SearchByName() {
   const [sets, setSets] = useState([]);
@@ -41,6 +42,7 @@ function SearchByName() {
 
   return (
     <>
+      <Title text="SET NAME => SET DETAILS" />
       <div className="app-container">
         <SetInputPanel2
           nameInput={nameInput}
