@@ -1,8 +1,10 @@
-function SetDisplayPanel2({ setData }) {
+function SetDisplayPanel2({ setData ,searchMode }) {
   return (
     <div className="display-panel">
-      <div className="set-name">{setData?.set_num || 'SET NUMBER'}</div>
-
+      <div className="set-name">
+        {searchMode === 'name' ? setData.set_num : setData.name}
+      </div>
+      
       <div className="image-box">
         <img
           src={setData?.img_url || '/greeen.jpg'}

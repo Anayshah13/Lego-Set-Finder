@@ -1,8 +1,7 @@
 import { useState } from 'react';
 import LandingScreen from './LandingScreen';
-import SearchByNumber from './SearchByNumber'; 
 import Footer from './Footer.jsx';
-import SearchByName from './SearchByName.jsx'; 
+import SearchByBoth from './SearchByBoth.jsx';
 import './styles.css';
 
 function App() {
@@ -13,9 +12,8 @@ function App() {
       {landingVisible ? (
         <LandingScreen onStart={() => setLandingVisible(false)} />
       ) : (
-        <SearchByNumber /> 
+        <SearchByBoth />
       )}
-      <SearchByName/>
       <Footer/>
     </>
   );

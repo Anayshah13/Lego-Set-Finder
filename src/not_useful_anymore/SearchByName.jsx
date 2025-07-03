@@ -42,7 +42,7 @@ function SearchByName() {
 
   return (
     <>
-      <Title text="SET NAME => SET DETAILS" />
+      <Title text="SET NAME ➡️ SET DETAILS" />
       <div className="app-container">
         <SetInputPanel2
           nameInput={nameInput}

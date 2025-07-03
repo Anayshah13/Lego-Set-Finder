@@ -57,7 +57,7 @@ function SearchByNumber() {
 
   return (
     <>
-      <Title text="SET NUMBER => SET DETAILS" />
+      <Title text="SET NUMBER ➡️ SET DETAILS" />
       <div className="app-container">
         <SetInputPanel setNumber={setNumber} onChange={setSetNumber} />
         <div className="divider" />
