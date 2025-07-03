@@ -182,17 +182,13 @@ h5{
   color: rgb(0, 0, 0);
   padding: 20px;
   text-align: center;
-  transform: translateY(0);
-  opacity: 1;
 }
-
 
 .start-button {
   margin-top: 20px;
   padding: 20px 90px;
   font-size: 32px;
   font-weight: bold;
-  
   background-color: rgba(255, 255, 255, 0.85);
   border: rgb(255, 204, 0) 7px solid;
   border-radius: 22px;
