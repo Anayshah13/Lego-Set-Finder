@@ -50,7 +50,7 @@ function SetInputPanel2({nameInput,onChange,suggestions,onSuggestionClick,search
         *type a LEGO set{' '}
         {searchMode === 'name'
           ? 'name like "Ferrari", "Ninjago", or "Technic"'
-          : 'number like "42158" , "001 or "77243"'}
+          : 'number like "42158" , "001" or "77243"'}
       </h5>
     </div>
   );
