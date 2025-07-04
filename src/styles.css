@@ -283,3 +283,7 @@ h1{
   transform: scale(1.05);
   border-color: rgb(26, 255, 0);
 }
+
+.loading-animation{
+  background-color: white;
+}
